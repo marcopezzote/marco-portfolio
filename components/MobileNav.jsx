@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
+import { Button } from "@/components/ui/button";
 
 const links = [
   {
@@ -59,6 +60,11 @@ const MobileNav = () => {
             );
           })}
         </nav>
+        <div className="mt-8 flex justify-center">
+          <Link href="/contato">
+            <Button>Me Contrate!</Button>
+          </Link>
+        </div>
       </SheetContent>
     </Sheet>
   );
