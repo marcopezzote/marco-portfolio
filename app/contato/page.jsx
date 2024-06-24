@@ -1,5 +1,7 @@
 const Contact = () => {
-  return <div>contact page</div>;
+  return (
+    <div>Em construção... Por favor, entre em contato pelos links na Home</div>
+  );
 };
 
 export default Contact;
