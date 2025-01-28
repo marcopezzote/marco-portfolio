@@ -29,9 +29,8 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
                 as="a"
-                href="https://drive.google.com/uc?id=1XBRLJ3fGp8HBOaYuJ2uk38vl8NcRJGJl&export=download"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/marco-pezzote.pdf"
+                download
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
