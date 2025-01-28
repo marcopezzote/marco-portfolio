@@ -23,14 +23,18 @@ const Home = () => {
               diversas linguagens de programação e tecnologias variadas.
             </p>
             {/*/ btn and socials */}
-         <a
-  href="/marco-pezzote.pdf"
-  download
-  className="inline-flex items-center justify-center uppercase gap-2 px-6 py-3 text-base font-semibold rounded-full border border-accent hover:bg-accent hover:text-primary transition-colors cursor-pointer"
->
-  <span>Download CV</span>
-  <FiDownload className="text-xl" />
-</a>
+            <div className="flex flex-col xl:flex-row items-center gap-8">
+              <Button
+                variant="outline"
+                size="lg"
+                className="uppercase flex items-center gap-2"
+                as="a"
+                href="/marco-pezzote.pdf"
+                download
+              >
+                <span>Download CV</span>
+                <FiDownload className="text-xl" />
+              </Button>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
